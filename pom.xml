@@ -28,7 +28,7 @@
   </dependencies>
   
   
- <!--
+
 <resources>
  <resource>
   <directory>.</directory>
@@ -37,7 +37,7 @@
   </includes>
  </resource>
 </resources>
- -->
+
   <build>
     <plugins>
       
