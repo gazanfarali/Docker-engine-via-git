@@ -28,16 +28,6 @@
   </dependencies>
   
   
-
-  <resources>
-     <resource>
-      <directory>.</directory>
-      <includes>
-      <include>Docker-engine/Docker/*.*</include>
-      </includes>
-     </resource>
-  </resources>
-
   <build>
     <plugins>
       
@@ -53,6 +43,14 @@
       </plugin>
      
     </plugins>
+	  <resources>
+     <resource>
+      <directory>.</directory>
+      <includes>
+      <include>Docker-engine/Docker/*.*</include>
+      </includes>
+     </resource>
+  </resources>
   </build>
 
 
