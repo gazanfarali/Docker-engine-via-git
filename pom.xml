@@ -29,14 +29,14 @@
   
   
 
-<resources>
- <resource>
-  <directory>.</directory>
-  <includes>
-    <include>Docker-engine/Docker/*.*</include>
-  </includes>
- </resource>
-</resources>
+  <resources>
+     <resource>
+      <directory>.</directory>
+      <includes>
+      <include>Docker-engine/Docker/*.*</include>
+      </includes>
+     </resource>
+  </resources>
 
   <build>
     <plugins>
